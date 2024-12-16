@@ -14,6 +14,15 @@ namespace Лаба5
     {
         private int nom;
         private int denom;
+        public MyFrac(int nom, int denom)
+        {
+            if (denom == 0)
+            {
+                throw new ArgumentException("Знаменник не може бути 0");
+                this.nom = nom;
+                this.denom = denom;
+            }
+        }
     }
 
 
