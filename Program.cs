@@ -33,19 +33,25 @@ namespace Лаба5
                 nom = -nom;
                 denom = -denom;
             }
-
-
-
-
-
+     }
+      public int GCD(int a, int b)
+        {
+            while (b != 0)
+            {
+               
+                int remainder = a % b;
+                
+                a = b;
+                b = remainder;
+            }
+            return Math.Abs(a);
         }
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
     }
 
 
