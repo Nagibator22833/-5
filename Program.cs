@@ -46,7 +46,12 @@ namespace Лаба5
             }
             return Math.Abs(a);
         }
-
+        public MyFrac Add(MyFrac b)
+        {
+            int newNom = this.nom * b.denom + b.nom * this.denom;
+            int newDenom = this.denom * b.denom;
+            return new MyFrac(newNom, newDenom);
+        }
 
 
 
