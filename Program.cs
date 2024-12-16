@@ -10,26 +10,30 @@ namespace Лаба5
         T Divide(T b);
 
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    public class MyFrac : IMyNumber<MyFrac>
+    {
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     internal class Program
     {
         static void Main(string[] args)
