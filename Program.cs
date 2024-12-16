@@ -28,7 +28,11 @@ namespace Лаба5
             int gcd = GCD(nom, denom); 
             nom /= gcd;
             denom /= gcd;
-
+            if (denom < 0) 
+            {
+                nom = -nom;
+                denom = -denom;
+            }
 
 
 
