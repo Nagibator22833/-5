@@ -25,14 +25,16 @@ namespace Лаба5
         }
      public void Simplify()
      {
+            int gcd = GCD(nom, denom); 
+            nom /= gcd;
+            denom /= gcd;
 
 
 
 
 
 
-
-     }
+        }
     
     
     
