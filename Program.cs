@@ -12,7 +12,8 @@ namespace Лаба5
     }
     public class MyFrac : IMyNumber<MyFrac>
     {
-        
+        private int nom;
+        private int denom;
     }
 
 
