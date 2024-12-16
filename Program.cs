@@ -23,6 +23,23 @@ namespace Лаба5
                 this.denom = denom;
             }
         }
+     public void Simplify()
+     {
+
+
+
+
+
+
+
+     }
+    
+    
+    
+    
+    
+    
+    
     }
 
 
