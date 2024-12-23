@@ -74,7 +74,10 @@ namespace Лаба5
             int newDenom = this.denom * b.nom;
             return new MyFrac(newNom, newDenom);
         }
-
+        public override string ToString()
+        {
+            return $"{nom}/{denom}";
+        }
 
 
     }
