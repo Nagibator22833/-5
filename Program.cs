@@ -86,6 +86,11 @@ namespace Лаба5
     {
         private int re;
         private int im;
+        public MyComplex(int  re, int  im)
+        {
+            this.re = re;
+            this.im = im;
+        }
 
 
 
