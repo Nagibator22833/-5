@@ -58,7 +58,12 @@ namespace Лаба5
             int newDenom = this.denom * b.denom;
             return new MyFrac(newNom, newDenom);
         }
-
+        public MyFrac Multiply(MyFrac b)
+        {
+            int newNom=this.nom+b.nom;
+            int newDenom=this.denom+b.denom;
+            return new MyFrac(newNom, newDenom);
+        }
 
 
 
