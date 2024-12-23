@@ -64,7 +64,16 @@ namespace Лаба5
             int newDenom=this.denom+b.denom;
             return new MyFrac(newNom, newDenom);
         }
-
+        public MyFrac Divide(MyFrac b)
+        {
+            if (b.nom == 0)
+            {
+                throw new DivideByZeroException("Ділення на нуль неможливо");
+            }
+            int newNom = this.nom * b.denom;
+            int newDenom = this.denom * b.nom;
+            return new MyFrac(newNom, newDenom);
+        }
 
 
 
