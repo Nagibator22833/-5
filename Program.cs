@@ -82,17 +82,23 @@ namespace Лаба5
 
     }
 
-    public class MyComplex  : IMyNumber<MyComplex>
+    public class MyComplex : IMyNumber<MyComplex>
     {
         private int re;
         private int im;
-        public MyComplex(int  re, int  im)
+        public MyComplex(int re, int im)
         {
             this.re = re;
             this.im = im;
         }
 
 
+        public override string ToString()
+        {
+            return $"{re} + {im}i";
+
+
+        }
 
     }
 
@@ -111,9 +117,7 @@ namespace Лаба5
 
 
 
-
-
-    internal class Program
+        internal class Program
     {
         static void Main(string[] args)
         {
