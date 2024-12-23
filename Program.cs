@@ -82,7 +82,13 @@ namespace Лаба5
 
     }
 
+    public class MyComplex  : IMyNumber<MyComplex>
+    {
 
+
+
+
+    }
 
 
 
