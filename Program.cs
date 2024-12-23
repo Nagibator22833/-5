@@ -107,6 +107,10 @@ namespace Лаба5
         {
             return new MyComplex(re - b.re, im - b.im);
         }
+        public MyComplex Multiply(MyComplex b)
+        {
+            return new MyComplex(re * b.re - im * b.im, re * b.im + im * b.re);
+        }
     }
 
 
