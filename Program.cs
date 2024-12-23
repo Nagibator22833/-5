@@ -84,7 +84,8 @@ namespace Лаба5
 
     public class MyComplex  : IMyNumber<MyComplex>
     {
-
+        private int re;
+        private int im;
 
 
 
