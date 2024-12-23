@@ -99,7 +99,10 @@ namespace Лаба5
 
 
         }
-
+        public MyComplex Add(MyComplex b)
+        {
+            return new MyComplex(re + b.re, im + b.im);
+        }
     }
 
 
